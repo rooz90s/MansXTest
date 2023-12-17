@@ -29,4 +29,10 @@ public class WeatherForecastController : ControllerBase
             })
             .ToArray();
     }
+
+    [HttpGet]
+    public IActionResult GetTest()
+    {
+        return Ok("sadas");
+    }
 }
